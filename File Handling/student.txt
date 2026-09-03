@@ -1,0 +1,6 @@
+Student Name : Yash Joshi
+Student Roll no : 110
+Branch : CSE
+Semester : VStudent's Age : 20
+Student's Address : Kolhapur
+Student's Contact no: 1234567890
