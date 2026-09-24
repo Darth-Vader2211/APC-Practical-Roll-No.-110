@@ -1,0 +1,41 @@
+class StudentResult:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def total(self):
+        return sum(self.marks)
+
+    def percentage(self):
+        return self.total() / 5
+
+    def grade(self):
+        percentage = self.percentage()
+
+        if percentage >= 90:
+            return "A+"
+        elif percentage >= 80:
+            return "A"
+        elif percentage >= 70:
+            return "B"
+        elif percentage >= 60:
+            return "C"
+        elif percentage >= 50:
+            return "D"
+        else:
+            return "F"
+
+    def display(self):
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+        print("Total:", self.total())
+        print("Percentage:", self.percentage(), "%")
+        print("Grade:", self.grade())
+
+    def __del__(self):
+        print("Student result object destroyed.")
+
+
+s = StudentResult("Yash", [85, 90, 78, 88, 92])
+
+s.display()
