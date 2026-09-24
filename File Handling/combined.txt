@@ -1,0 +1,10 @@
+101,Amit,80,100
+102,Priya,70,100
+103,Rahul,90,100
+104,Neha,65,100
+Student Name : Yash Joshi
+Student Roll no : 110
+Branch : CSE
+Semester : VStudent's Age : 20
+Student's Address : Kolhapur
+Student's Contact no: 1234567890
